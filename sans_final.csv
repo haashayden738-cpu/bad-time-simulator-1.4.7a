@@ -42,7 +42,7 @@
 0,CombatZoneResize,-10,264,650,369,,,,
 0.9,GetHeartPos,HeartX,HeartY,,,,,,
 0,HeartTeleport,40,$HeartY,,,,,,
-0,HeartMaxFallSpeed,0,,,,,,,
+0,HeartMaxFallSpeed,3,,,,,,,
 0,SansSlam,0,,,,,,,
 0,DIV,Deg,180,$pi,,,,,
 0,SET,I,0,,,,,,
@@ -211,3 +211,4 @@ $Wait2,SET,LastDir,$Direction,,,,,,
 0,JMPL,166,$I,38,,,,,
 1.5,SansAnimation,Tired,,,,,,,
 2.4,EndAttack,,,,,,,,
+
